@@ -1,8 +1,8 @@
-function Post() {
+function Post(props) {
     return (
-        <div>
-            <p>Pikek</p>
-            <p>React Js is Awesome</p>
+        <div className="post">
+            <p>{props.author}</p>
+            <p>{props.body}</p>
         </div>
     ) 
 }
